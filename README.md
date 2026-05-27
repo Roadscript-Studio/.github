@@ -1,6 +1,6 @@
-# Roadscript Studio GitHub Profile
+# Roadscript GitHub Profile
 
-This repository contains the GitHub organization profile for **Roadscript Studio**.
+This repository contains the GitHub organization profile for **Roadscript**.
 
 The public organization profile is defined in:
 
