@@ -1,6 +1,6 @@
-# Roadscript Studio
+# Roadscript
 
-Roadscript Studio is building an authenticity tooling ecosystem around media provenance, invisible watermarking workflows, and developer-facing verification tools.
+Roadscript is building an authenticity tooling ecosystem around media provenance, invisible watermarking workflows, and developer-facing verification tools.
 
 The project is organized as a public/private repository system: public repositories show the application layer, documentation, and website surface, while the core engine implementation remains private during productization.
 
