@@ -8,23 +8,31 @@ The first product family under Roadscript is **Cyphra**: an image authenticity a
 
 ```text
 Roadscript
+├── Roadscript Engine
+│   └── repo: roadscript-engine (private)
 ├── Cyphra
-│   ├── Roadscript Engine
 │   ├── Cyphra CLI
+│   │   └── repo: cyphra-cli (public)
 │   ├── Cyphra SDKs
+│   │   └── repo: cyphra-sdks (planned, private initially)
 │   └── Cyphra Apps
+│       ├── repo: cyphra-ios (planned, private initially)
+│       ├── repo: cyphra-android (planned, private initially)
+│       └── repo: cyphra-macos (planned, private initially)
 ├── Roadscript Docs
+│   └── repo: roadscript-docs (public)
 └── Roadscript Site
+    └── repo: roadscript-site (public)
 ```
 
-Roadscript is the umbrella ecosystem. Cyphra is the product family. Roadscript Engine is the private core technology package behind Cyphra, while Cyphra CLI is the public developer-facing command-line and workflow layer.
+Roadscript is the umbrella ecosystem. Cyphra is the first product family. Roadscript Engine is the private core technology package behind Cyphra, while Cyphra CLI is the public developer-facing command-line and workflow layer.
 
 ## Public repositories
 
 | Repository | Status | Purpose |
 |---|---:|---|
 | [`roadscript-docs`](https://github.com/Roadscript-Studio/roadscript-docs) | Public | Public overview, architecture notes, repository boundaries, and development milestones. |
-| [`roadscript-cli`](https://github.com/Roadscript-Studio/roadscript-cli) | Public | Public repository for Cyphra CLI: the standalone C++ CLI, workflow DSL, local TUI prototype, examples, tests, and tooling. |
+| [`cyphra-cli`](https://github.com/Roadscript-Studio/cyphra-cli) | Public | Public repository for Cyphra CLI: the standalone C++ CLI, workflow DSL, local TUI prototype, examples, tests, and tooling. |
 | [`roadscript-site`](https://github.com/Roadscript-Studio/roadscript-site) | Public | Public website and sample-driven demo surface for Roadscript and Cyphra. |
 
 ## Private core
@@ -49,7 +57,7 @@ roadscript-docs
 roadscript-site
   public website and sample-driven demo surface
 
-roadscript-cli
+cyphra-cli
   public Cyphra CLI repository: CLI, workflow DSL, local TUI prototype, tests, examples, and tooling
 
 roadscript-engine
